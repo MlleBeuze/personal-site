@@ -2,20 +2,23 @@ import { colors } from '@material-ui/core';
 
 const white = '#FFFFFF';
 const black = '#000000';
+const salmon = '#ea907a';
+const yellowMain = "#ffcb74";
+const brokenWhite = "#f4f6ff";
 
 export default {
   black,
   white,
   primary: {
     contrastText: white,
-    dark: colors.teal[900],
-    main: colors.teal[500],
-    light: colors.teal[100]
+    dark: colors.amber[900],
+    main: yellowMain,
+    light: colors.amber[100]
   },
   secondary: {
     contrastText: white,
     dark: colors.blue[900],
-    main: colors.blue['A400'],
+    main: brokenWhite,
     light: colors.blue['A400']
   },
   success: {
@@ -43,12 +46,12 @@ export default {
     light: colors.red[400]
   },
   text: {
-    primary: colors.blueGrey[900],
-    secondary: colors.blueGrey[600],
-    link: colors.blue[600]
+    primary: black,
+    secondary: white,
+    link: salmon,
   },
   background: {
-    default: '#F4F6F8',
+    default: brokenWhite,
     paper: white
   },
   icon: colors.blueGrey[600],
